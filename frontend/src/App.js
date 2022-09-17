@@ -5,6 +5,7 @@ import Header from "./components/layout/Header";
 import Home from "./components/home/Home";
 import "./styles/header.scss";
 import "./styles/home.scss";
+import "./styles/menu.scss";
 
 const App = () => {
   return (
