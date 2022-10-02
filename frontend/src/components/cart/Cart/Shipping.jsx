@@ -21,7 +21,15 @@ const Shipping = () => {
           <div>
             <label>State</label>
             <select>
-              <option value=""></option>
+              <option value="">Select state</option>
+              <option value="">New South Wales</option>
+              <option value="">Australian Capital Territory</option>
+              <option value="">South Australia</option>
+              <option value="">Queensland</option>
+              <option value="">South Australia</option>
+              <option value="">Western Australia</option>
+              <option value="">Northern Territory</option>
+              <option value="">Tasmania</option>
             </select>
           </div>
           <div>
