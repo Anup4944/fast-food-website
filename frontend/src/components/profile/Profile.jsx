@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { MdDashboard } from "react-icons/md";
 
 const Profile = () => {
   const options = {
@@ -26,7 +27,9 @@ const Profile = () => {
         </motion.h5>
 
         <motion.div {...options} transition={{ delay: 0.5 }}>
-          <Link to="/admin/dashboard">Dashboard</Link>
+          <Link to="/admin/dashboard">
+            <MdDashboard /> Dashboard
+          </Link>
         </motion.div>
 
         <motion.div

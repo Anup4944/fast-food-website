@@ -11,6 +11,8 @@ import ConfirmOrder from "./components/cart/Cart/ConfirmOrder.jsx";
 import PaymentSuccess from "./components/cart/Cart/PaymentSuccess.jsx";
 import Login from "./components/login/Login.jsx";
 import Profile from "./components/profile/Profile.jsx";
+import Order from "./components/order/Order";
+import OrderDetails from "./components/order/OrderDetails.jsx";
 
 import "./styles/header.scss";
 import "./styles/home.scss";
@@ -23,6 +25,8 @@ import "./styles/confirmOrder.scss";
 import "./styles/paymentSuccess.scss";
 import "./styles/login.scss";
 import "./styles/profile.scss";
+import "./styles/table.scss";
+import "./styles/orderDetails.scss";
 
 const App = () => {
   return (
@@ -37,6 +41,8 @@ const App = () => {
         <Route path="/payment-success" element={<PaymentSuccess />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/orders" element={<Order />} />
+        <Route path="/orders/:id" element={<OrderDetails />} />
       </Routes>
       <Footer />
     </Router>
