@@ -13,6 +13,7 @@ import Login from "./components/login/Login.jsx";
 import Profile from "./components/profile/Profile.jsx";
 import Order from "./components/order/Order";
 import OrderDetails from "./components/order/OrderDetails.jsx";
+import Dashboard from "./components/admin/Dashboard";
 
 import "./styles/header.scss";
 import "./styles/home.scss";
@@ -27,6 +28,7 @@ import "./styles/login.scss";
 import "./styles/profile.scss";
 import "./styles/table.scss";
 import "./styles/orderDetails.scss";
+import "./styles/dashboard.scss";
 
 const App = () => {
   return (
@@ -43,6 +45,7 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/orders" element={<Order />} />
         <Route path="/orders/:id" element={<OrderDetails />} />
+        <Route path="/admin/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </Router>
