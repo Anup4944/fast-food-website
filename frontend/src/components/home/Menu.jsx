@@ -34,6 +34,30 @@ const Menu = () => {
           handler={addToCartHandler}
           delay={0.3}
         />
+        <MenuCard
+          itemNum={3}
+          burgerSrc={burger3}
+          price={200}
+          title="Mix Burger meal"
+          handler={addToCartHandler}
+          delay={0.3}
+        />
+        <MenuCard
+          itemNum={3}
+          burgerSrc={burger3}
+          price={200}
+          title="Mix Burger meal"
+          handler={addToCartHandler}
+          delay={0.3}
+        />
+        <MenuCard
+          itemNum={3}
+          burgerSrc={burger3}
+          price={200}
+          title="Mix Burger meal"
+          handler={addToCartHandler}
+          delay={0.3}
+        />
       </div>
     </section>
   );

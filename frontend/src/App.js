@@ -14,6 +14,10 @@ import Profile from "./components/profile/Profile.jsx";
 import Order from "./components/order/Order";
 import OrderDetails from "./components/order/OrderDetails.jsx";
 import Dashboard from "./components/admin/Dashboard";
+import Users from "./components/admin/Users.jsx";
+import Orders from "./components/admin/Orders.jsx";
+import About from "./components/about/About.jsx";
+import NotFound from "./components/layout/NotFound";
 
 import "./styles/header.scss";
 import "./styles/home.scss";
@@ -29,6 +33,7 @@ import "./styles/profile.scss";
 import "./styles/table.scss";
 import "./styles/orderDetails.scss";
 import "./styles/dashboard.scss";
+import "./styles/about.scss";
 
 const App = () => {
   return (
@@ -38,6 +43,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/about" element={<About />} />
         <Route path="/checkout" element={<Shipping />} />
         <Route path="/confirm-order" element={<ConfirmOrder />} />
         <Route path="/payment-success" element={<PaymentSuccess />} />
@@ -46,6 +52,10 @@ const App = () => {
         <Route path="/orders" element={<Order />} />
         <Route path="/orders/:id" element={<OrderDetails />} />
         <Route path="/admin/dashboard" element={<Dashboard />} />
+        <Route path="/admin/users" element={<Users />} />
+        <Route path="/admin/orders" element={<Orders />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>

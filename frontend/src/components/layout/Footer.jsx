@@ -6,10 +6,11 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <h2>Burger</h2>
+        <h2>BurgerKing</h2>
         <p>We're the best burger maker ever existed</p>
         <br />
         <em>We give attention to feedbacks</em>
+        <br />
         <strong>All right received </strong>
       </div>
 
