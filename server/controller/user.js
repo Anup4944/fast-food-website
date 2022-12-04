@@ -10,7 +10,7 @@ export const logout = (req, res, next) => {
 
     res.clearCookie("connect.sid");
     res.status(200).json({
-      message: "Logget Out",
+      message: "Logged Out",
     });
   });
 };

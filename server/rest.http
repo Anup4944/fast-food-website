@@ -1,0 +1,24 @@
+// PLACE ORDER //
+
+### Place order
+POST http://localhost:4000/api/v1/create
+Content-Type: application/json
+
+{
+    "shippingInfo": {
+        "unitNo": "6",
+        "streetNo":"613 Princess Hwy",
+        "suburb": "Rockdale",
+        "state":"NSW",
+        "country":"Aus",
+        "postCode":"2216",
+        "phoneNo":"050505050"
+    },
+    "orderItems":{
+        "cheeseBurgerMeal":20
+    },
+    "itemsPrice":20,
+    "shippingCharges":4,
+    "totalAmount":2,
+    "notes":"No sauce"
+}

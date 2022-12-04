@@ -14,7 +14,7 @@ const Menu = () => {
           itemNum={1}
           burgerSrc={burger1}
           price={200}
-          title="Cheese Burger"
+          title="Cheese Burger Meal"
           handler={addToCartHandler}
           delay={0.1}
         />
@@ -22,7 +22,7 @@ const Menu = () => {
           itemNum={2}
           burgerSrc={burger2}
           price={300}
-          title="Chicken Burger"
+          title="Chicken Burger Meal"
           handler={addToCartHandler}
           delay={0.2}
         />
@@ -30,31 +30,31 @@ const Menu = () => {
           itemNum={3}
           burgerSrc={burger3}
           price={200}
-          title="Mix Burger meal"
+          title="Beef Burger Meal"
           handler={addToCartHandler}
           delay={0.3}
         />
         <MenuCard
-          itemNum={3}
+          itemNum={4}
           burgerSrc={burger3}
           price={200}
-          title="Mix Burger meal"
+          title="Veg Burger Meal"
           handler={addToCartHandler}
-          delay={0.3}
+          delay={0.1}
         />
         <MenuCard
-          itemNum={3}
+          itemNum={5}
           burgerSrc={burger3}
           price={200}
-          title="Mix Burger meal"
+          title="Mix Burger Meal"
           handler={addToCartHandler}
-          delay={0.3}
+          delay={0.2}
         />
         <MenuCard
-          itemNum={3}
+          itemNum={6}
           burgerSrc={burger3}
           price={200}
-          title="Mix Burger meal"
+          title="Spicy Burger Meal"
           handler={addToCartHandler}
           delay={0.3}
         />
