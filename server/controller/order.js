@@ -29,6 +29,6 @@ export const placeOrder = asyncAwait(async (req, res, next) => {
   res.status(201).json({
     success: true,
     message:
-      "Your order has been successfully placed, if you have selected cash on delivery you'll receive a call from our delivery driver. Thank you!",
+      "Your order has been successfully placed, you'll receive a call from our delivery driver. Thank you!",
   });
 });
